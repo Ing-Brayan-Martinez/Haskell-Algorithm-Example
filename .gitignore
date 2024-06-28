@@ -1,0 +1,5 @@
+/out/
+.idea
+.stack-work
+Haskell-Algorithm-Example.iml
+stack.yaml.lock
