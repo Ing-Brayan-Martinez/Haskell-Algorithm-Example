@@ -17,7 +17,7 @@ fizzBuzzSuite = testGroup "ExampleTest"
                 [ testGroup "Dynamic" $
                   [ testCase "factorial" $ factorial 5 @?= 120
                   , testCase "fibonacci" $ fibonacci 20 @?= 6765
-                  , testCase "fizzbuzz" $ fizzBuzz 20 @?= "Buzz"
+                  , testCase "fizzbuzz" $ fizzBuzz 60 @?= "FizzBuzz"
                   ]
                 , testGroup "Ordering" $
                   [ testCase "bubbleSort" $ bubbleSort 1 @?= 1
